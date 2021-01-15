@@ -24,8 +24,11 @@ button{
 	cursor: pointer;
 }
 
+/* ---------------TOP------------ */
+
 .title{
 	color: #2F281E;
+	font-weight: 700;
 }
 
 .container{
@@ -146,4 +149,71 @@ button{
 
 .top__link:hover{
 	text-decoration: none;
+}
+/* ---------------TOOLS------------ */
+
+.tools {
+	padding-top: 112px;
+	margin-bottom: 210px;
+}
+
+.tools__title {
+	max-width: 540px;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+
+	padding: 0 10px;
+	margin: 0 auto 46px;
+
+}
+
+.tools__inner{
+	padding-bottom: 90px;
+	background-image: url('../images/tools-bg.svg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+}
+
+.tools__items {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 14px 34px;
+}
+.tools__item {
+	align-self: start;
+	max-width: 240px;
+
+}
+
+.tools__item + .tools__item {
+	margin-left: 45px;
+}
+
+.tools__item-img {
+	margin-bottom: 30px;
+
+}
+.tools__item-title {
+	margin-bottom: 13px;
+
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 33px;
+	color: #2F281E;
+
+}
+
+.tools__link {
+	display: block;
+	width: 175px;
+	margin: 0 auto;
+
+	color: #fff;
+	background-color: #ff9900;	
+	border-radius: 4px;
+	padding: 15px 32px 14px;
+
+	border: none;
 }
