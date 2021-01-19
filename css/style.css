@@ -424,4 +424,77 @@ button{
 	cursor: pointer;
 }
 
-/* ---------------NEXT TEAM------------ */
+/* ---------------BLOG------------ */
+
+.blog {
+	padding: 30px 0 120px;
+}
+
+.blog__title {
+	font-size: 34px;
+	line-height: 51px;
+	margin-bottom: 9px;
+}
+
+.blog__text {
+	margin-bottom: 55px;
+}
+.slider {
+	margin: 0 -20px;
+}
+.slider__item {
+	padding: 0 20px;
+}
+.slider__item-img {
+	width: 348px;
+	height: 185px;
+	object-fit: cover;
+	margin-bottom: 25px;
+
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.slider__item-info {
+	margin-bottom: 12px;
+	line-height: 28px;
+}
+.slider__item-author {
+	font-weight: 700;
+
+	color: #544837;
+}
+
+.slider__item-title {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 700;
+	max-width: 292px;
+	transition: all .3s;
+
+	margin-bottom: 84px;
+}
+
+.slider__item-title:hover{
+	color: #FF9900;
+}
+
+.slick-dots{
+	list-style: none;
+	display: flex;
+	justify-content: center; 
+}
+
+.slick-dots button{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border:none;
+	background-color: #EFEFEF;
+	font-size: 0;
+	margin: 0 5px;
+}
+
+.slick-dots .slick-active button{
+	background-color: #FF9900;
+}
